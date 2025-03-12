@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="AdminMaster.master.vb" Inherits="ToDo_List_Manager.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <link href="AdminStyleSheet.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+       
+        <header class="admin-header-container">
+
+            <h1 class="admin-header-heading">TaskTrek - Admin Panel</h1>
+            <p class="admin-header-text">Effortlessly manage tasks and users</p>
+
+        </header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <footer class="footer-admin">
+
+            <div class="footer-admin-text">© 2024 TaskTrek. All rights reserved.</div>
+            <div class="footer-admin-subtext">Organize your tasks, streamline your workflow, and get things done.</div>
+
+        </footer>
+
+    </form>
+</body>
+</html>

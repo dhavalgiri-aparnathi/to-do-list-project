@@ -1,0 +1,1058 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ToDo_List_Manager
+</name>
+</assembly>
+<members>
+<member name="T:ToDo_List_Manager.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ToDo_List_Manager.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:ToDo_List_Manager.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:ToDo_List_Manager.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:ToDo_List_Manager.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:ToDo_List_Manager.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._AddAdminForm">
+<summary>
+AddAdminForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._UsernameRequiredValidator">
+<summary>
+UsernameRequiredValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._UsernameRegexValidator">
+<summary>
+UsernameRegexValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._PasswordRequiredValidator">
+<summary>
+PasswordRequiredValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._PasswordRegexValidator">
+<summary>
+PasswordRegexValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._InsertNewAdmin">
+<summary>
+InsertNewAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._AddAdminButton">
+<summary>
+AddAdminButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._ViewAdminsButton">
+<summary>
+ViewAdminsButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddAdminSection._GoBackButton">
+<summary>
+GoBackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminAccountSection._UsernameLabel">
+<summary>
+UsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminAccountSection._PasswordLabel">
+<summary>
+PasswordLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminAccountSection._EditButton">
+<summary>
+EditButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminAccountSection._DeleteButton">
+<summary>
+DeleteButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminAccountSection._GoBackButton">
+<summary>
+GoBackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminDashboard._AdminUsernameLabel">
+<summary>
+AdminUsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminDashboard._TotalUsersLabel">
+<summary>
+TotalUsersLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminDashboard._TotalTasksLabel">
+<summary>
+TotalTasksLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminDashboard._TotalFeedbacksLabel">
+<summary>
+TotalFeedbacksLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminDashboard._LogoutButton">
+<summary>
+LogoutButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminLoginPage._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminLoginPage._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminLoginPage._LoginButton">
+<summary>
+LoginButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminLoginPage._GoBackButton">
+<summary>
+GoBackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminMaster._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminMaster._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AdminMaster._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditAdminAccount._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditAdminAccount._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditAdminAccount._UpdateAccountButton">
+<summary>
+UpdateAccountButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UpdateUserAccount._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UpdateUserAccount._EmailBox">
+<summary>
+EmailBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UpdateUserAccount._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UpdateUserAccount._UpdateButton">
+<summary>
+UpdateButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedbacks._ErrorLabel">
+<summary>
+ErrorLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedbacks._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedbacks._GoBackButton">
+<summary>
+GoBackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._SearchBox">
+<summary>
+SearchBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._ErrorLabel">
+<summary>
+ErrorLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._AddUserForm">
+<summary>
+AddUserForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._UsernameRequiredValidator">
+<summary>
+UsernameRequiredValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._UsernameRegexValidator">
+<summary>
+UsernameRegexValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._EmailBox">
+<summary>
+EmailBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._EmailRequiredValidator">
+<summary>
+EmailRequiredValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._EmailRegexValidator">
+<summary>
+EmailRegexValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._PasswordRequiredValidator">
+<summary>
+PasswordRequiredValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._PasswordRegexValidator">
+<summary>
+PasswordRegexValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._InsertNewUser">
+<summary>
+InsertNewUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._AddUserButton">
+<summary>
+AddUserButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserSection._ViewUsersButton">
+<summary>
+ViewUsersButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserTasks._UsernameLabel">
+<summary>
+UsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserTasks._ErrorLabel">
+<summary>
+ErrorLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserTasks._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddNewTask._UsernameLabel">
+<summary>
+UsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddNewTask._TaskCatLabel">
+<summary>
+TaskCatLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddNewTask._TaskCatList">
+<summary>
+TaskCatList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddNewTask._TaskLabel">
+<summary>
+TaskLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddNewTask._TaskBox">
+<summary>
+TaskBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.AddNewTask._AddTaskButton">
+<summary>
+AddTaskButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ClientHomePage._ExistingUserButton">
+<summary>
+ExistingUserButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ClientHomePage._NewUserButton">
+<summary>
+NewUserButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ClientHomePage._GoBackButton">
+<summary>
+GoBackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ClientMasterPage._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ClientMasterPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ClientMasterPage._LogoutButton">
+<summary>
+LogoutButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ClientMasterPage._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditAccountDetails._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditAccountDetails._EmailBox">
+<summary>
+EmailBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditAccountDetails._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditAccountDetails._UpdateAccountButton">
+<summary>
+UpdateAccountButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._UsernameLabel">
+<summary>
+UsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._TaskCatLabel">
+<summary>
+TaskCatLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._TaskCatList">
+<summary>
+TaskCatList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._TaskCompletionLabel">
+<summary>
+TaskCompletionLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._TaskCompletionList">
+<summary>
+TaskCompletionList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._TaskLabel">
+<summary>
+TaskLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._TaskBox">
+<summary>
+TaskBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.EditUserTask._EditTaskButton">
+<summary>
+EditTaskButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ExistingUserLogin._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ExistingUserLogin._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ExistingUserLogin._LoginButton">
+<summary>
+LoginButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.ExistingUserLogin._GoBackButton">
+<summary>
+GoBackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.LoginSuccess._CreateTaskButton">
+<summary>
+CreateTaskButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.NewUserRegister._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.NewUserRegister._EmailBox">
+<summary>
+EmailBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.NewUserRegister._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.NewUserRegister._RegisterButton">
+<summary>
+RegisterButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.NewUserRegister._GoBackButton">
+<summary>
+GoBackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.TaskSection._UsernameLabel">
+<summary>
+UsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.TaskSection._ErrorLabel">
+<summary>
+ErrorLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.TaskSection._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.TaskSection._CreateNewTaskButton">
+<summary>
+CreateNewTaskButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserAccount._UsernameLabel">
+<summary>
+UsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserAccount._EmailLabel">
+<summary>
+EmailLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserAccount._PasswordLabel">
+<summary>
+PasswordLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserAccount._EditButton">
+<summary>
+EditButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserAccount._DeleteButton">
+<summary>
+DeleteButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedback._UsernameLabel">
+<summary>
+UsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedback._RatingLabel">
+<summary>
+RatingLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedback._RatingList">
+<summary>
+RatingList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedback._FeedbackLabel">
+<summary>
+FeedbackLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedback._FeedBackBox">
+<summary>
+FeedBackBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.UserFeedback._SubmitFeedbackButton">
+<summary>
+SubmitFeedbackButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager._Default1._UserPanelButton">
+<summary>
+UserPanelButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager._Default1._AdminPanelButton">
+<summary>
+AdminPanelButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.MasterPage._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.MasterPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ToDo_List_Manager.MasterPage._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="ClientMasterPage.master.vb" Inherits="ToDo_List_Manager.ClientMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <link href="ClientStyleSheet.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <header class="client-header">
+
+            <h1 class="client-heading">TaskTrek</h1>
+
+            <nav class="client-navigation-bar">
+                <a class="client-link" style="border-bottom: 2px solid black;" href="LoginSuccess.aspx">Home</a>
+                <a class="client-link" href="TaskSection.aspx">Tasks</a>
+                <a class="client-link" href="UserAccount.aspx">Account</a>
+                <a class="client-link" href="UserFeedback.aspx">Feedback</a>
+                <asp:LinkButton Text="Logout" CssClass="client-link client-logout-link" ID="LogoutButton" runat="server" />
+            </nav>
+
+        </header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+        <footer class="client-footer">
+
+            <div class="client-footer-text">© 2024 TaskTrek. All rights reserved.</div>
+            <div class="client-footer-subtext">Organize your tasks, streamline your workflow, and get things done.</div>
+
+        </footer>
+
+    </form>
+</body>
+</html>

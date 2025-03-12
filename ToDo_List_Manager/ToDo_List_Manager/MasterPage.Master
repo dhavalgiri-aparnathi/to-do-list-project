@@ -1,0 +1,55 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="ToDo_List_Manager.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+         <header class="home-page-header-container">
+
+            <h1 class="home-page-header">
+                
+                TaskTrek
+
+            </h1>
+
+            <br />
+
+            <div class="home-page-text">
+                
+                "Welcome to TaskTrek, your ultimate task management tool. 
+                <br />
+                Stay organized, track your to-dos, and never miss a deadline. 
+                <br />
+                Let’s get things done!"
+
+            </div>
+
+        </header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+        <footer class="footer-home-page">
+
+            <div class="footer-home-page-text">© 2024 TaskTrek. All rights reserved.</div>
+            <div class="footer-home-page-subtext">Organize your tasks, streamline your workflow, and get things done.</div>
+
+        </footer>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,770 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.admin-auth-form {
+    width: 50%;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+}
+
+.admin-auth-form h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.admin-auth-form-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.admin-auth-form-textbox:focus {
+    outline: none;
+}
+
+.admin-auth-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-auth-btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-auth-back-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-auth-back-btn:hover {
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.admin-header-container {
+    text-align: center;
+    background-color: #333333;
+    padding: 30px;
+    color: #f1f1f1;
+}
+
+.admin-header-heading {
+    font-family: 'Trebuchet MS';
+}
+
+.admin-header-text {
+    font-family: Bahnschrift;
+    margin-top: 15px;
+}
+
+.footer-admin {
+    border-top: 1px solid black;
+    background-color: #e3e3e3;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-admin-text {
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.footer-admin-subtext {
+    font-size: 1em;
+    font-family: Bahnschrift;
+    margin-top: 15px;
+}
+
+.admin-db-welcome-message {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 50px;
+}
+
+.admin-db-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.admin-db-section {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    width: 250px;
+    color: teal;
+}
+
+.admin-db-img {
+    width: 100%;
+    height: 200px;
+}
+
+.admin-db-section-text {
+    font-size: 1.3em;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.admin-add-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.admin-add-section-container h1 {
+    font-family: 'Trebuchet MS';
+    color: #0066AA;
+}
+
+.admin-add-section-container table {
+    margin-top: 50px;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS';
+    box-shadow: 0px 0px 10px 0px gray;
+    width: 800px;
+}
+
+.admin-add-section-container th {
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.admin-add-section-container td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.admin-add-section-container tr:hover {
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+.admin-add-section-back-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-add-section-back-btn:hover {
+    border-color: #e3e3e3;
+    background-color: #e3e3e3;
+}
+
+.admin-add-section-add-btn {
+    margin-top: 50px;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+
+.admin-add-section-add-btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-add-section-form {
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+}
+
+.admin-add-section-form-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.admin-add-section-form-textbox:focus {
+    outline: none;
+}
+
+.admin-add-section-form-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-add-section-form-btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-add-form-validation-error-message {
+    color: red;
+    font-family: 'Trebuchet MS';
+}
+
+.admin-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.admin-account-container h1 {
+    font-family: 'Trebuchet MS';
+    color: #0066EE;
+}
+
+.admin-account-container table {
+    margin-top: 30px;
+    width: 50%;
+    box-shadow: 0px 0px 10px 0px silver;
+    border: none;
+    border-collapse: collapse;
+}
+
+.admin-account-container td {
+    font-family: Bahnschrift;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.admin-account-container tr:hover {
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.admin-account-container b {
+    color: #0066EE;
+}
+
+.admin-account-editbtn {
+    width: 50%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+.admin-account-editbtn:hover {
+    background-color: #0056b3;
+}
+
+.admin-account-deletebtn {
+    width: 50%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: indianred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+.admin-account-deletebtn:hover {
+    background-color: darkred;
+}
+
+.admin-account-back-btn {
+    width: 50%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-account-back-btn:hover {
+    border-color: #e3e3e3;
+    background-color: #e3e3e3;
+}
+
+.admin-edit-account-form {
+    width: 50%;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+}
+
+.admin-edit-account-form h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.admin-edit-account-form-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.admin-edit-account-form-textbox:focus {
+    outline: none;
+}
+
+.admin-edit-account-update-btn, .admin-edit-account-cancel-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-edit-account-update-btn:hover, .admin-edit-account-cancel-btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-feedback-container {
+    margin: 50px;
+    text-align: center;
+}
+
+.admin-feedback-container h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: #0066AA;
+}
+
+.admin-feedback-error-label {
+    display: inline-block;
+    margin-top: 50px;
+    color: red;
+    font-family: Bahnschrift;
+    background: #ffedf0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.admin-feedback-container table {
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS';
+    box-shadow: 0px 0px 10px 0px gray;
+    width: 1000px;
+}
+
+.admin-feedback-container th {
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.admin-feedback-container td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.admin-feedback-container tr:hover {
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+.admin-feedback-delete-btn {
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.admin-feedback-back-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-top: 50px;
+}
+
+.admin-feedback-back-btn:hover {
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.admin-user-task-container {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.admin-user-task-container h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: #0066AA;
+}
+
+.admin-user-task-container p {
+    text-align: center;
+    font-family: Bahnschrift;
+    margin-top: 15px;
+}
+
+.admin-user-task-error-label {
+    display: inline-block;
+    margin-top: 50px;
+    color: red;
+    font-family: Bahnschrift;
+    background: #ffedf0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.admin-user-task-container table {
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS';
+    box-shadow: 0px 0px 10px 0px gray;
+    width: 1000px;
+}
+
+.admin-user-task-container th {
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.admin-user-task-container td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.admin-user-task-container tr:hover {
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+.admin-user-task-section-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-top: 50px;
+}
+
+.admin-user-task-section-btn:hover {
+    border-color: #e3e3e3;
+    background-color: #e3e3e3;
+}
+
+.admin-manage-users-container {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-manage-users-container h1 {
+    font-family: 'Trebuchet MS';
+    color: #0066AA;
+}
+
+.admin-manage-users-search {
+    width: 900px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS';
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.admin-manage-users-search:focus {
+    outline: none;
+    border-color: #007bff;    
+}
+
+.admin-manage-users-container table {
+    margin-top: 50px;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS';
+    width: 1000px;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.admin-manage-users-container th {
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.admin-manage-users-container td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.admin-manage-users-container tr:hover {
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+.admin-manage-users-error-label {
+    display: inline-block;
+    margin-top: 50px;
+    color: red;
+    font-family: Bahnschrift;
+    background: #ffedf0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.admin-manage-users-update-btn {
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+
+.admin-manage-users-delete-btn {
+    text-decoration: none;
+    color: white;
+    background: indianred;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+
+.admin-manage-users-add-btn {
+    margin-top: 50px;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+
+.admin-manage-users-add-btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-manage-users-form {
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+}
+
+.admin-manage-users-form-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.admin-manage-users-form-textbox:focus {
+    outline: none;
+}
+
+.admin-manage-users-form-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-manage-users-form-btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-manage-users-form-validation-error-message {
+    color: red;
+    font-family: 'Trebuchet MS';
+}
+
+.admin-manage-users-back-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+.admin-manage-users-back-btn:hover {
+    border-color: #e3e3e3;
+    background-color: #e3e3e3;
+}
+
+.admin-update-user-form {
+    width: 50%;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+}
+
+.admin-update-user-form h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.admin-update-user-form-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.admin-update-user-form-textbox:focus {
+    outline: none;
+}
+
+.admin-update-user-form-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-update-user-form-btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-update-user-form-back-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.admin-update-user-form-back-btn:hover {
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+}

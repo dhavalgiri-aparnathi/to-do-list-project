@@ -1,0 +1,625 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.client-home-page-button-group {
+    text-align: center;
+    padding: 80px;
+}
+
+.old-user-btn, .new-user-btn {
+    padding: 12px;
+    font-size: 1.5em;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40vw;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.old-user-btn:hover, .new-user-btn:hover {
+    background: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.client-auth-form {
+    width: 50%;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+}
+
+.client-auth-form h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.client-auth-form-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.client-auth-form-textbox:focus {
+    outline: none;
+}
+
+.client-auth-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.client-auth-btn:hover {
+    background-color: #0056b3;
+}
+
+.client-auth-back-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.client-auth-back-btn:hover {
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.client-header {
+    display: flex;
+    padding: 30px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    background-color: #e3e3e3;
+}
+
+.client-heading { 
+    font-family: 'Trebuchet MS';
+}
+
+.client-navigation-bar {
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+.client-link { 
+    text-decoration: none; 
+    font-family: Bahnschrift;
+    padding-bottom: 4px;
+    color: black;
+    margin-right: 30px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.client-logout-link {
+    color: #ce1f1f;
+}
+
+.client-link:hover { 
+    border-color: black;
+}
+
+.client-logout-link:hover {
+    border-color: #ce1f1f;
+}
+
+.client-footer {
+    border-top: 1px solid black;
+    background-color: #e3e3e3;
+    text-align: center;
+    padding: 30px;
+}
+
+.client-footer-text {
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.client-footer-subtext {
+    font-size: 1em;
+    font-family: Bahnschrift;
+    margin-top: 15px;
+}
+
+.client-login-success-image {
+    background: url('../Images/client_home_page.jpg') rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.client-login-success-image h1 {
+    font-family: 'Trebuchet MS';
+}
+
+.client-login-success-image div {
+    font-family: Bahnschrift;
+    margin-top: 15px;
+}
+
+.client-login-success-content {
+    font-family: Bahnschrift Light;
+    padding: 40px;
+    text-align: justify;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.client-login-success-create-task-button {
+    padding: 10px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid silver;
+    cursor: pointer;
+    font-family: Bahnschrift;
+    font-size: 1.4em;
+    transition: 0.3s;
+}
+
+.client-login-success-create-task-button:hover {
+    background: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.client-feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.client-feedback-container h1 {
+    font-family: 'Trebuchet MS';
+}
+
+.client-feedback-container p {
+    font-family: Bahnschrift;
+    margin-top: 10px;
+}
+
+.client-feedback-form {
+    box-shadow: 0px 0px 10px 0px silver;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS';
+    padding: 30px;  
+    width: 700px;
+    margin-top: 40px;
+}
+
+.client-feedback-form h1 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    text-align: center;
+    color: #0066EE;
+}
+
+.client-feedback-list {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+}
+
+.client-feedback-list:focus {
+    outline: none;
+}
+
+.client-feedback-box {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+    font-size: 1em;
+}
+
+.client-feedback-box:focus {
+    outline: none;
+}
+
+.client-feedback-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-top: 5px;
+}
+
+.client-feedback-button:hover {
+    background-color: #0056b3;
+}
+
+.client-user-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.client-user-account-container h1 {
+    font-family: 'Trebuchet MS';
+    color: #0066EE;
+}
+
+.client-user-account-container table {
+    margin-top: 30px;
+    width: 50%;
+    box-shadow: 0px 0px 10px 0px silver;
+    border: none;
+    border-collapse: collapse;
+}
+
+.client-user-account-container td {
+    font-family: Bahnschrift;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.client-user-account-container tr:hover {
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.client-user-account-container b {
+    color: #0066EE;
+}
+
+.client-user-account-editbtn {
+    width: 50%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+.client-user-account-editbtn:hover {
+    background-color: #0056b3;
+}
+
+.client-user-account-deletebtn {
+    width: 50%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: indianred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+.client-user-account-deletebtn:hover {
+    background-color: darkred;
+}
+
+.client-edit-account-form {
+    width: 50%;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px silver;
+}
+
+.client-edit-account-form h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.client-edit-account-form-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Bahnschrift;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.client-edit-account-form-textbox:focus {
+    outline: none;
+}
+
+.client-edit-account-update-btn, .client-edit-account-cancel-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 5px;
+}
+
+.client-edit-account-update-btn:hover, .client-edit-account-cancel-btn:hover {
+    background-color: #0056b3;
+}
+
+.client-add-task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.client-add-task-container h1 {
+    font-family: 'Trebuchet MS';
+}
+
+.client-add-task-container p {
+    font-family: Bahnschrift;
+    margin-top: 10px;
+}
+
+.client-add-task-form {
+    box-shadow: 0px 0px 10px 0px silver;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS';
+    padding: 30px;  
+    width: 700px;
+    margin-top: 40px;
+}
+
+.client-add-task-form h1 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    text-align: center;
+    color: #0066EE;
+}
+
+.client-add-task-category {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+}
+
+.client-add-task-category:focus {
+    outline: none;
+}
+
+.client-add-task-box {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+    font-size: 1em;
+}
+
+.client-add-task-box:focus {
+    outline: none;
+}
+
+.client-add-task-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-top: 5px;
+}
+
+.client-add-task-button:hover {
+    background-color: #0056b3;
+}
+
+.client-task-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.client-task-section-new-button {
+    padding: 10px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid silver;
+    cursor: pointer;
+    font-family: Bahnschrift;
+    margin-top: 50px;
+    font-size: 1.4em;
+    transition: 0.3s;
+}
+
+.client-task-section-new-button:hover {
+    background: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.client-task-section-container h1 {
+    font-family: 'Trebuchet MS';
+    margin-bottom: 10px;
+}
+
+.client-task-section-container p {
+    font-family: Bahnschrift;
+}
+
+.client-task-section-notasklabel {
+    margin-top: 50px;
+    font-family: Bahnschrift;
+    color: red;
+    background: #fffafb;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.client-task-section-container table {
+    margin-top: 50px;
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS';
+    box-shadow: 0px 0px 10px 0px gray;
+    width: auto;
+}
+
+.client-task-section-container th {
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.client-task-section-container td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.client-task-section-container tr:hover {
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+.client-task-section-container-delete-btn {
+    text-decoration: none;
+    padding: 8px;
+    background: indianred;
+    color: white;
+    border-radius: 6px;
+}
+
+.client-task-section-container-update-btn {
+    text-decoration: none;
+    padding: 8px;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+}
+
+.client-edit-task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.client-edit-task-container h1 {
+    font-family: 'Trebuchet MS';
+}
+
+.client-edit-task-container p {
+    font-family: Bahnschrift;
+    margin-top: 10px;
+}
+
+.client-edit-task-form {
+    box-shadow: 0px 0px 10px 0px silver;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS';
+    padding: 30px;  
+    width: 700px;
+    margin-top: 40px;
+}
+
+.client-edit-task-form h1 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    text-align: center;
+    color: #0066EE;
+}
+
+.client-edit-task-category {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+}
+
+.client-edit-task-category:focus {
+    outline: none;
+}
+
+.client-edit-task-box {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+    font-size: 1em;
+}
+
+.client-edit-task-box:focus {
+    outline: none;
+}
+
+.client-edit-task-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-top: 5px;
+}
+
+.client-edit-task-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,65 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-page-header-container {   
+    background: url('Images/home_page.jpg') rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-blend-mode: darken;
+    text-align: center;
+    height: 50vh;
+    color: white;
+}
+
+.home-page-header {
+    font-family: 'Trebuchet MS';
+}
+
+.home-page-text {
+    font-family: Bahnschrift;
+}
+
+.home-page-button-group {
+    text-align: center;
+    padding: 80px;
+}
+
+.user-panel-btn, .admin-panel-btn {
+    padding: 12px;
+    font-size: 1.5em;
+    border: 2px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40vw;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.admin-panel-btn:hover, .user-panel-btn:hover {
+    background: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.footer-home-page {
+    border-top: 1px solid black;
+    background-color: #e3e3e3;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-home-page-text {
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.footer-home-page-subtext {
+    font-size: 1em;
+    font-family: Bahnschrift;
+    margin-top: 15px;
+}
